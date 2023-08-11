@@ -1,0 +1,12 @@
+*{
+  font-family: 'poppins', sans-serif;
+  font-family: dancing script;
+}
+
+.font-custom {
+  font-family: 'fantasy', serif; /* Replace 'FontName' with the actual font name */
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

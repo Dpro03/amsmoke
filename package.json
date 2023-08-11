@@ -5,19 +5,22 @@
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tailwindcss build styles.css -o output.css"
+    "start": "live-server"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Dpro03/amsmoke.git"
+    "url": "https://github.com/Dpro03/amsmoke.git"
   },
   "author": "Dave Proto",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Dpro03/amsmoke/issues"
   },
-  "homepage": "https://github.com/Dpro03/amsmoke#readme",
-  "dependencies": {
+  "homepage": "https://github.com/Dpro03/amsmoke",
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "live-server": "^1.2.2",
+    "postcss": "^8.4.27",
     "tailwindcss": "^3.3.3"
   }
 }

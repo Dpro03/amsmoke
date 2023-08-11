@@ -1,17 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>American Smoke & International Spice</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="output.css">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gray-800">
+    <div class="text-center">
+      <h1
+        class="text-5xl font-custom text-red-600 border-2 border-gray-400 rounded-xl inline-block px-4 py-4"
+      >
+        American Smoke & International Spice
+      </h1>
+    </div>
 
-<body>
-    <h1>American Smoke & International Spice</h1>
-    
-<script src="script.js"></script>
+    <div class="flex justify-center space-x-6 mt-6">
+      <h2 class="text-2xl">
+        <a href="index.html" class="text-red-600 font-custom hover:text-gray-200">Home</a>
+      </h2>
+      <div class="relative dropdown">
+        <button class="text-2xl text-red-600 dropdown-button font-custom hover:text-gray-200">
+          Menus
+        </button>
+        <div
+          class="dropdown-content hidden absolute mt-2 w-48 bg-gray-800 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 divide-y divide-gray-600 z-10"
+        >
+          <a
+            href="american.html"
+            class="text-red-700 font-custom font-bold dropdown-item block px-4 py-2 hover:bg-gray-100 hover:text-gray-900"
+            >Bold American</a
+          >
+          <a
+            href="#"
+            class="text-red-600 font-custom font-bold dropdown-item block px-4 py-2 hover:bg-gray-100 hover:text-gray-900"
+            >Amazing BBQ</a
+          >
+          <a
+            href="#"
+            class="text-red-600 font-custom font-bold dropdown-item block px-4 py-2 hover:bg-gray-100 hover:text-gray-900"
+            >French Delights</a
+          >
+          <a
+            href="#"
+            class="text-red-600 font-custom font-bold dropdown-item block px-4 py-2 hover:bg-gray-100 hover:text-gray-900"
+            >Exquisite Italian</a
+          >
+          <a
+            href="#"
+            class="text-red-600 font-custom font-bold dropdown-item block px-4 py-2 hover:bg-gray-100 hover:text-gray-900"
+            >Bavarian Flair</a
+          >
+        </div>
+      </div>
+      <h2 class="text-2xl">
+        <a href="contact.html" class="text-red-600 font-custom hover:text-gray-200">Contact</a>
+      </h2>
+      <h2 class="text-2xl">
+        <a href="about.html" class="text-red-600 font-custom hover:text-gray-200">About</a>
+      </h2>
+      <h2 class="text-2xl">
+        <a href="gallery.html" class="text-red-600 font-custom hover:text-gray-200">Gallery</a>
+      </h2>
+    </div>
 
-</body>
+    <div class="grid grid-cols-3 gap-4 mt-12">
+      <!-- Empty Column -->
+      <div class="col-span-1"></div>
+    </div>
+    <div class="relative">
+      <img
+        src="images/dining.jpg"
+        alt="American Smoke & International Spice"
+        class="w-full h-auto"
+      />
+      <p class="columns-1 md:columns-2 absolute top-36 left-0 md:w-full md:flex md:justify-center md:items-center text-center md:text-left text-white text-4xl md:text-5xl p-4">
+        The boldness of America &nbsp;<span style="color: red;">combined</span>&nbsp; with the sophisticated taste of the world!
+        
+        <img class="columns-2 md:columns-3 absolute top-36 left-0 md:w-full md:flex md:justify-center md:items-center text-center md:text-left text-white text-4xl md:text-5xl p-4 z-10">
+    </p>
+    <div class="absolute top-36 left-0 md:w-full md:flex md:justify-center md:items-center p-8 gap-8 mt-44">
+        <div class="flex flex-col items-center">
+          <img src="images/vealsalt.webp" alt="Image 1" class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-56 xl:h-56 rounded-xl mb-2" />
+          <p class="text-white text-md md:text-xl">Veal Saltimbocca</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="images/ribs.jpg" alt="Image 2" class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-56 xl:h-56 rounded-xl mb-2 mx-4" />
+          <p class="text-white text-md md:text-xl">Barbequed Ribs</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img src="images/shrimp.jpg" alt="Image 3" class="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 xl:w-56 xl:h-56 rounded-xl mb-2" />
+          <p class="text-white text-md md:text-xl">Fried Shrimp</p>
+        </div>
+      </div>
+                  
+    </div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
