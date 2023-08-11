@@ -1,0 +1,23 @@
+{
+  "name": "amsmoke",
+  "version": "1.0.0",
+  "description": "Restaurant Website",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss build styles.css -o output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dpro03/amsmoke.git"
+  },
+  "author": "Dave Proto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dpro03/amsmoke/issues"
+  },
+  "homepage": "https://github.com/Dpro03/amsmoke#readme",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
