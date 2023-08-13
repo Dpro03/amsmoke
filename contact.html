@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - American Smoke || International Spice</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-stone-400">
+    <header class="bg-gray-900 text-white text-center py-4">
+      <h1 class="text-2xl font-bold">American Smoke || International Spice</h1>
+      <p>Contact Us</p>
+    </header>
+
+    <main class="p-4">
+      <div class="max-w-md mx-auto bg-white p-6 rounded shadow-md">
+        <h2 class="text-xl font-semibold mb-4">Get in Touch</h2>
+        <form action="submit_contact.php" method="post">
+          <label class="block mb-2 font-semibold" for="name">Name:</label>
+          <input
+            class="w-full p-2 border rounded"
+            type="text"
+            id="name"
+            name="name"
+            required
+          />
+
+          <label class="block mb-2 font-semibold mt-4" for="email"
+            >Email:</label
+          >
+          <input
+            class="w-full p-2 border rounded"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+
+          <label class="block mb-2 font-semibold mt-4" for="message"
+            >Message:</label
+          >
+          <textarea
+            class="w-full p-2 border rounded"
+            id="message"
+            name="message"
+            rows="4"
+            required
+          ></textarea>
+
+          <button
+            class="mt-6 bg-blue-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded"
+            type="submit"
+          >
+            Send Message
+          </button>
+        </form>
+      </div>
+    </main>
+
+    <footer class="text-center py-4 mt-44">
+      <p>
+        &copy; 2023 American Smoke || International Spice. All rights reserved.
+      </p>
+    </footer>
+  </body>
+</html>
