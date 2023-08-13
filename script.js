@@ -13,4 +13,3 @@
           dropdownContent.classList.toggle('hidden');
         });
 
-        console.log("Hello World!");
